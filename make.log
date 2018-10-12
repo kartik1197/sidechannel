@@ -1,0 +1,40 @@
+src/cache_misses_simulator.cpp: In function ‘int main(int, char**)’:
+src/cache_misses_simulator.cpp:95:16: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+     system(cmd);
+                ^
+src/cache_misses_simulator.cpp:99:64: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+         system(strcat(strcpy(cmd, "rm -rf ./temp/"), ms_charr));
+                                                                ^
+src/cache_misses_simulator.cpp:103:16: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+     system(cmd);
+                ^
+src/cache_misses_simulator.cpp:125:36: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+         system(kill_command.data());
+                                    ^
+src/cache_misses_simulator.cpp:130:20: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+         system(cmd);
+                    ^
+src/cache_misses_simulator.cpp:138:64: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+         system(strcat(strcpy(cmd, "rm -rf ./temp/"), ms_charr));
+                                                                ^
+src/cache_misses_simulator.cpp:143:29: warning: ignoring return value of ‘__ssize_t getline(char**, size_t*, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     getline(&line, &len, fp);
+                             ^
+src/cache_misses_simulator.cpp:190:29: warning: ignoring return value of ‘__ssize_t getline(char**, size_t*, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     getline(&line, &len, fp);
+                             ^
+src/cache_misses_simulator.cpp:191:29: warning: ignoring return value of ‘__ssize_t getline(char**, size_t*, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     getline(&line, &len, fp);
+                             ^
+src/cache_misses_simulator.cpp:192:29: warning: ignoring return value of ‘__ssize_t getline(char**, size_t*, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     getline(&line, &len, fp);
+                             ^
+src/cache_misses_simulator.cpp:193:32: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     fgets(pre, sizeof(pre), fp);
+                                ^
+src/cache_misses_simulator.cpp:194:29: warning: ignoring return value of ‘__ssize_t getline(char**, size_t*, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     getline(&line, &len, fp);
+                             ^
+src/cache_misses_simulator.cpp:201:16: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+     system(cmd);
+                ^
